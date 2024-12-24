@@ -2,10 +2,10 @@ import pandas as pd
 import numpy as np
 
 # Set the percentage of missing values you want
-missing_percentage = 0.05  # 5% of the total dataset
+missing_percentage = 0.03  # 3% of the total dataset
 
 # Exclude 'Patient Id' column and index from introducing missing values
-columns_to_consider = df.columns.difference(['Patient Id'])
+columns_to_consider = df.columns.difference(['Patient Id','Age','Gender'])
 total_values = len(df) * len(columns_to_consider)
 num_missing = int(total_values * missing_percentage)
 
