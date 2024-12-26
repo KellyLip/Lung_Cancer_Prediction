@@ -1,6 +1,3 @@
-# Install the necessary package
-!pip install ydata-profiling
-
 # Import the profiling library
 from ydata_profiling import ProfileReport
 

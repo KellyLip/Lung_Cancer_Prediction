@@ -12,3 +12,21 @@ The goal is to explore the relationship between air pollution and cancer risk an
 3. [Data Cleaning](03-data-cleaning/)
 4. [EDA](04-eda/)
 ...
+
+## How to run this code?
+
+1. Clone the repository
+```
+git clone https://github.com/KellyLip/Lung_Cancer_Prediction
+```
+
+2. Create a virtual environment
+```
+python -m venv .venv
+```
+
+3. Install dependencies
+```
+pip install -r requirements.txt
+```
+
